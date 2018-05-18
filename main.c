@@ -3,23 +3,23 @@
 
 
 int main(int argc, char *argv[]) {
-	unsigned int the_counter;
-	int the_grade;
-	int the_total;
-	int the_average;
+	unsigned int TheCounter;
+	int TheGrade;
+	int TheTotal;
+	int TheAverage;
 		
-	the_total = 0;
-	the_counter = 1;
+	TheTotal = 0;
+	TheCounter = 1;
 
-	while (the_counter <= 10) {
+	while (TheCounter <= 10) {
 	    printf("%s", "Enter grade: ");
-		scanf("%d", &the_grade);
-		the_total = the_total + the_grade;
-		the_counter = the_counter + 1;	
+		scanf("%d", &TheGrade);
+		TheTotal = TheTotal + TheGrade;
+		TheCounter = TheCounter + 1;	
 	}
 	
-	the_average = the_total / 10;
-	printf("class average is %d\n", the_average);
+	TheAverage = TheTotal / 10;
+	printf("class average is %d\n", TheAverage);
 	system ("PAUSE");
 
 	return 0;
